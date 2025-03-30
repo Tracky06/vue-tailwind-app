@@ -83,7 +83,7 @@
 
   onBeforeMount(async() => {
     try {
-    const result = await fetch("/food.json");
+    const result = await fetch("/vue-tailwind-app/food.json");
     const data = await result.json();
     vegData.value = data;
   } catch (error) {
