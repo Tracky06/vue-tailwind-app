@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+@import 'tailwindcss';
+
+body {
+    background-color: #f7eadb;
+    font-family: "Inter", sans-serif;
+}
+
+.bg-hero {
+    background-image: url("/assets/hero_image.jpg")
+}
+
+.grid-parent {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, 320px);
+    justify-content: center;
+    grid-auto-flow: dense;
+    gap: 30px;
+}
